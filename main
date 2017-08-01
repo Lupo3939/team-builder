@@ -6140,13 +6140,29 @@ int main()
 		
 
 	} while (input != 4);
-
+	cout << "One moment please as the player data is saved." << endl;
+    
+    	ofstream() myfile;
+    	myfile.open("players.txt");
+    	for(int i = 0; i < Players.size(); i++)
+    	{
+        	myfile << Players[i].name << endl;
+        	for(int j = 0; j < Players[i].pool.size(); j++)
+        	{
+            		myfile << Players[i].pool[j].name;
+            		if(j!=Players[i].pool.end())
+		            myfile << ", ";
+            
+        	}
+        }
+	
+    	myfile.close();
 
 	cout << "Goodbye" << endl;
 
 
 
-    return 0;
+    	return 0;
 }
 
 
