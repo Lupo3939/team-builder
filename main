@@ -52,16 +52,17 @@ void initializeChamps(){ //Load recent data for each Champ
     getline(myfile, line)
     
     int i = 0;
+    
 
     Champion Aatrox;
     Aatrox.name = Champions[i];
-    Aatrox.tank = 3;
-    Aatrox.range = 2;
-    Aatrox.cc = 3;
-    Aatrox.mobility = 2;
-    Aatrox.damage = 4;
-    Aatrox.heal = 2;
-    Aatrox.shield = 1;
+    Aatrox.tank = tank;
+    Aatrox.range = range;
+    Aatrox.cc = cc;
+    Aatrox.mobility = mobility;
+    Aatrox.damage = damage;
+    Aatrox.heal = heal;
+    Aatrox.shield = shield;
     
     i++;
     Champs.push_back(Aatrox);
