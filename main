@@ -50,57 +50,40 @@ void initializeChamps(){ //Load recent data for each Champ
     int x;
     
     ifstream myfile("read-champs");
-    getline(myfile, line);
-    x = 0;
-    while(!isdigit(line[x]))
-    {x++};
-    tank = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    range = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    cc = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    mobility = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    damage = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    heal = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];
-    
     int i = 0;
     
 	//Aatrox
-    Champion Aatrox;
+Champion Aatrox;
     getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     
     Aatrox.name = Champions[i];
     Aatrox.tank = tank;
@@ -120,26 +103,33 @@ void initializeChamps(){ //Load recent data for each Champ
     getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Ahri.name = Champions[i];
     Ahri.tank = tank;
     Ahri.range = range;
@@ -157,26 +147,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Akali.name = Champions[i];
     Akali.tank = tank;
     Akali.range = range;
@@ -194,26 +191,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Alistar.name = Champions[i];
     Alistar.tank = tank;
     Alistar.range = range;
@@ -231,26 +235,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Amumu.name = Champions[i];
     Amumu.tank = tank;
     Amumu.range = range;
@@ -268,26 +279,33 @@ void initializeChamps(){ //Load recent data for each Champ
 		getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Anivia.name = Champions[i];
     Anivia.tank = tank;
     Anivia.range = range;
@@ -305,26 +323,33 @@ void initializeChamps(){ //Load recent data for each Champ
 		getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Annie.name = Champions[i];
     Annie.tank = tank;
     Annie.range = range;
@@ -370,26 +395,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Azir.name = Champions[i];
     Azir.tank = tank;
     Azir.range = range;
@@ -402,30 +434,38 @@ void initializeChamps(){ //Load recent data for each Champ
     i++;
     Champs.push_back(Azir);
     
+	//Bard
     Champion Bard;
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Bard.name = Champions[i];
     Bard.tank = tank;
     Bard.range = range;
@@ -442,26 +482,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Blitzcrank.name = Champions[i];
     Blitzcrank.tank = tank;
     Blitzcrank.range = range;
@@ -478,26 +525,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Brand.name = Champions[i];
     Brand.tank = tank;
     Brand.range = range;
@@ -514,26 +568,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Braum.name = Champions[i];
     Braum.tank = tank;
     Braum.range = range;
@@ -551,26 +612,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Caitlyn.name = Champions[i];
     Caitlyn.tank = tank;
     Caitlyn.range = range;
@@ -588,26 +656,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Camille.name = Champions[i];
     Camille.tank = tank;
     Camille.range = range;
@@ -625,26 +700,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Cass.name = Champions[i];
     Cass.tank = tank;
     Cass.range = range;
@@ -662,26 +744,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Cho.name = Champions[i];
     Cho.tank = tank;
     Cho.range = range;
@@ -699,26 +788,33 @@ void initializeChamps(){ //Load recent data for each Champ
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     shield = line[x];
+x++;
     Corki.name = Champions[i];
     Corki.tank = tank;
     Corki.range = range;
@@ -734,13 +830,13 @@ void initializeChamps(){ //Load recent data for each Champ
 	Champion Darius;
     Darius.name = Champions[i];
     Darius.name = ;
-    Darius.tank = ;
-    Darius.range = ;
-    Darius.cc = ;
-    Darius.mobility = ;
-    Darius.damage = ;
-    Darius.heal = ;
-    Darius.shield = ;
+    Darius.tank = tank;
+    Darius.range = range;
+    Darius.cc = cc;
+    Darius.mobility = mobility;
+    Darius.damage = damage;
+    Darius.heal = heal;
+    Darius.shield = shield;
     
     i++;
     Champion Darius;
@@ -748,34 +844,41 @@ void initializeChamps(){ //Load recent data for each Champ
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Darius.name = ;
-    Darius.tank = ;
-    Darius.range = ;
-    Darius.cc = ;
-    Darius.mobility = ;
-    Darius.damage = ;
-    Darius.heal = ;
-    Darius.shield = ;
+    Darius.tank = tank;
+    Darius.range = range;
+    Darius.cc = cc;
+    Darius.mobility = mobility;
+    Darius.damage = damage;
+    Darius.heal = heal;
+    Darius.shield = shield;
     
     i++;
     Champs.push_back(Darius);
@@ -785,34 +888,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Diana.name = ;
-    Diana.tank = ;
-    Diana.range = ;
-    Diana.cc = ;
-    Diana.mobility = ;
-    Diana.damage = ;
-    Diana.heal = ;
-    Diana.shield = ;
+    Diana.tank = tank;
+    Diana.range = range;
+    Diana.cc = cc;
+    Diana.mobility = mobility;
+    Diana.damage = damage;
+    Diana.heal = heal;
+    Diana.shield = shield;
     
     i++;
     Champs.push_back(Diana);
@@ -822,34 +932,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Mundo.name = ;
-    Mundo.tank = ;
-    Mundo.range = ;
-    Mundo.cc = ;
-    Mundo.mobility = ;
-    Mundo.damage = ;
-    Mundo.heal = ;
-    Mundo.shield = ;
+    Mundo.tank = tank;
+    Mundo.range = range;
+    Mundo.cc = cc;
+    Mundo.mobility = mobility;
+    Mundo.damage = damage;
+    Mundo.heal = heal;
+    Mundo.shield = shield;
     
     i++;
     Champs.push_back(Mundo);
@@ -859,34 +976,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Draven.name = ;
-    Draven.tank = ;
-    Draven.range = ;
-    Draven.cc = ;
-    Draven.mobility = ;
-    Draven.damage = ;
-    Draven.heal = ;
-    Draven.shield = ;
+    Draven.tank = tank;
+    Draven.range = range;
+    Draven.cc = cc;
+    Draven.mobility = mobility;
+    Draven.damage = damage;
+    Draven.heal = heal;
+    Draven.shield = shield;
     
     i++;
     Champs.push_back(Draven);
@@ -896,34 +1020,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Ekko.name = ;
-    Ekko.tank = ;
-    Ekko.range = ;
-    Ekko.cc = ;
-    Ekko.mobility = ;
-    Ekko.damage = ;
-    Ekko.heal = ;
-    Ekko.shield = ;
+    Ekko.tank = tank;
+    Ekko.range = range;
+    Ekko.cc = cc;
+    Ekko.mobility = mobility;
+    Ekko.damage = damage;
+    Ekko.heal = heal;
+    Ekko.shield = shield;
     
     i++;
     Champs.push_back(Ekko);
@@ -933,34 +1064,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Elise.name = ;
-    Elise.tank = ;
-    Elise.range = ;
-    Elise.cc = ;
-    Elise.mobility = ;
-    Elise.damage = ;
-    Elise.heal = ;
-    Elise.shield = ;
+    Elise.tank = tank;
+    Elise.range = range;
+    Elise.cc = cc;
+    Elise.mobility = mobility;
+    Elise.damage = damage;
+    Elise.heal = heal;
+    Elise.shield = shield;
     
     i++;
     Champs.push_back(Elise);
@@ -970,34 +1108,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Eve.name = ;
-    Eve.tank = ;
-    Eve.range = ;
-    Eve.cc = ;
-    Eve.mobility = ;
-    Eve.damage = ;
-    Eve.heal = ;
-    Eve.shield = ;
+    Eve.tank = tank;
+    Eve.range = range;
+    Eve.cc = cc;
+    Eve.mobility = mobility;
+    Eve.damage = damage;
+    Eve.heal = heal;
+    Eve.shield = shield;
     
     i++;
     Champs.push_back(Eve);
@@ -1007,34 +1152,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Ez.name = ;
-    Ez.tank = ;
-    Ez.range = ;
-    Ez.cc = ;
-    Ez.mobility = ;
-    Ez.damage = ;
-    Ez.heal = ;
-    Ez.shield = ;
+    Ez.tank = tank;
+    Ez.range = range;
+    Ez.cc = cc;
+    Ez.mobility = mobility;
+    Ez.damage = damage;
+    Ez.heal = heal;
+    Ez.shield = shield;
     
     i++;
     Champs.push_back(Ez);
@@ -1044,34 +1196,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Fiddle.name = ;
-    Fiddle.tank = ;
-    Fiddle.range = ;
-    Fiddle.cc = ;
-    Fiddle.mobility = ;
-    Fiddle.damage = ;
-    Fiddle.heal = ;
-    Fiddle.shield = ;
+    Fiddle.tank = tank;
+    Fiddle.range = range;
+    Fiddle.cc = cc;
+    Fiddle.mobility = mobility;
+    Fiddle.damage = damage;
+    Fiddle.heal = heal;
+    Fiddle.shield = shield;
     
     i++;
     Champs.push_back(Fiddle);
@@ -1081,34 +1240,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Fiora.name = ;
-    Fiora.tank = ;
-    Fiora.range = ;
-    Fiora.cc = ;
-    Fiora.mobility = ;
-    Fiora.damage = ;
-    Fiora.heal = ;
-    Fiora.shield = ;
+    Fiora.tank = tank;
+    Fiora.range = range;
+    Fiora.cc = cc;
+    Fiora.mobility = mobility;
+    Fiora.damage = damage;
+    Fiora.heal = heal;
+    Fiora.shield = shield;
     
     i++;
     Champs.push_back(Fiora);
@@ -1118,34 +1284,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Fizz.name = ;
-    Fizz.tank = ;
-    Fizz.range = ;
-    Fizz.cc = ;
-    Fizz.mobility = ;
-    Fizz.damage = ;
-    Fizz.heal = ;
-    Fizz.shield = ;
+    Fizz.tank = tank;
+    Fizz.range = range;
+    Fizz.cc = cc;
+    Fizz.mobility = mobility;
+    Fizz.damage = damage;
+    Fizz.heal = heal;
+    Fizz.shield = shield;
     
     i++;
     Champs.push_back(Fizz);
@@ -1155,34 +1328,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Galio.name = ;
-    Galio.tank = ;
-    Galio.range = ;
-    Galio.cc = ;
-    Galio.mobility = ;
-    Galio.damage = ;
-    Galio.heal = ;
-    Galio.shield = ;
+    Galio.tank = tank;
+    Galio.range = range;
+    Galio.cc = cc;
+    Galio.mobility = mobility;
+    Galio.damage = damage;
+    Galio.heal = heal;
+    Galio.shield = shield;
     
     i++;
     Champs.push_back(Galio);
@@ -1192,34 +1372,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Gp.name = ;
-    GP.tank = ;
-    GP.range = ;
-    GP.cc = ;
-    GP.mobility = ;
-    GP.damage = ;
-    GP.heal = ;
-    GP.shield = ;
+    GP.tank = tank;
+    GP.range = range;
+    GP.cc = cc;
+    GP.mobility = mobility;
+    GP.damage = damage;
+    GP.heal = heal;
+    GP.shield = shield;
     
     i++;
     Champs.push_back(GP);
@@ -1229,34 +1416,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Garen.name = ;
-    Garen.tank = ;
-    Garen.range = ;
-    Garen.cc = ;
-    Garen.mobility = ;
-    Garen.damage = ;
-    Garen.heal = ;
-    Garen.shield = ;
+    Garen.tank = tank;
+    Garen.range = range;
+    Garen.cc = cc;
+    Garen.mobility = mobility;
+    Garen.damage = damage;
+    Garen.heal = heal;
+    Garen.shield = shield;
     
     i++;
     Champs.push_back(Garen);
@@ -1266,34 +1460,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Gnar.name = ;
-    Gnar.tank = ;
-    Gnar.range = ;
-    Gnar.cc = ;
-    Gnar.mobility = ;
-    Gnar.damage = ;
-    Gnar.heal = ;
-    Gnar.shield = ;
+    Gnar.tank = tank;
+    Gnar.range = range;
+    Gnar.cc = cc;
+    Gnar.mobility = mobility;
+    Gnar.damage = damage;
+    Gnar.heal = heal;
+    Gnar.shield = shield;
     
     i++;
     Champs.push_back(Gnar);
@@ -1303,34 +1504,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Gragas.name = ;
-    Gragas.tank = ;
-    Gragas.range = ;
-    Gragas.cc = ;
-    Gragas.mobility = ;
-    Gragas.damage = ;
-    Gragas.heal = ;
-    Gragas.shield = ;
+    Gragas.tank = tank;
+    Gragas.range = range;
+    Gragas.cc = cc;
+    Gragas.mobility = mobility;
+    Gragas.damage = damage;
+    Gragas.heal = heal;
+    Gragas.shield = shield;
     
     i++;
     Champs.push_back(Gragas);
@@ -1340,34 +1548,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Graves.name = ;
-    Graves.tank = ;
-    Graves.range = ;
-    Graves.cc = ;
-    Graves.mobility = ;
-    Graves.damage = ;
-    Graves.heal = ;
-    Graves.shield = ;
+    Graves.tank = tank;
+    Graves.range = range;
+    Graves.cc = cc;
+    Graves.mobility = mobility;
+    Graves.damage = damage;
+    Graves.heal = heal;
+    Graves.shield = shield;
     
     i++;
     Champs.push_back(Graves);
@@ -1377,34 +1592,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Hecarim.name = ;
-    Hecarim.tank = ;
-    Hecarim.range = ;
-    Hecarim.cc = ;
-    Hecarim.mobility = ;
-    Hecarim.damage = ;
-    Hecarim.heal = ;
-    Hecarim.shield = ;
+    Hecarim.tank = tank;
+    Hecarim.range = range;
+    Hecarim.cc = cc;
+    Hecarim.mobility = mobility;
+    Hecarim.damage = damage;
+    Hecarim.heal = heal;
+    Hecarim.shield = shield;
     
     i++;
     Champs.push_back(Hecarim);
@@ -1414,34 +1636,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Donger.name = ;
-    Donger.tank = ;
-    Donger.range = ;
-    Donger.cc = ;
-    Donger.mobility = ;
-    Donger.damage = ;
-    Donger.heal = ;
-    Donger.shield = ;
+    Donger.tank = tank;
+    Donger.range = range;
+    Donger.cc = cc;
+    Donger.mobility = mobility;
+    Donger.damage = damage;
+    Donger.heal = heal;
+    Donger.shield = shield;
     
     i++;
     Champs.push_back(Donger);
@@ -1451,34 +1680,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Illaoi.name = ;
-    Illaoi.tank = ;
-    Illaoi.range = ;
-    Illaoi.cc = ;
-    Illaoi.mobility = ;
-    Illaoi.damage = ;
-    Illaoi.heal = ;
-    Illaoi.shield = ;
+    Illaoi.tank = tank;
+    Illaoi.range = range;
+    Illaoi.cc = cc;
+    Illaoi.mobility = mobility;
+    Illaoi.damage = damage;
+    Illaoi.heal = heal;
+    Illaoi.shield = shield;
     
     i++;
     Champs.push_back(Illaoi);
@@ -1488,34 +1724,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Irelia.name = ;
-    Irelia.tank = ;
-    Irelia.range = ;
-    Irelia.cc = ;
-    Irelia.mobility = ;
-    Irelia.damage = ;
-    Irelia.heal = ;
-    Irelia.shield = ;
+    Irelia.tank = tank;
+    Irelia.range = range;
+    Irelia.cc = cc;
+    Irelia.mobility = mobility;
+    Irelia.damage = damage;
+    Irelia.heal = heal;
+    Irelia.shield = shield;
     
     i++;
     Champs.push_back(Irelia);
@@ -1525,34 +1768,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Ivern.name = ;
-    Ivern.tank = ;
-    Ivern.range = ;
-    Ivern.cc = ;
-    Ivern.mobility = ;
-    Ivern.damage = ;
-    Ivern.heal = ;
-    Ivern.shield = ;
+    Ivern.tank = tank;
+    Ivern.range = range;
+    Ivern.cc = cc;
+    Ivern.mobility = mobility;
+    Ivern.damage = damage;
+    Ivern.heal = heal;
+    Ivern.shield = shield;
     
     i++;
     Champs.push_back(Ivern);
@@ -1562,34 +1812,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Janna.name = ;
-    Janna.tank = ;
-    Janna.range = ;
-    Janna.cc = ;
-    Janna.mobility = ;
-    Janna.damage = ;
-    Janna.heal = ;
-    Janna.shield = ;
+    Janna.tank = tank;
+    Janna.range = range;
+    Janna.cc = cc;
+    Janna.mobility = mobility;
+    Janna.damage = damage;
+    Janna.heal = heal;
+    Janna.shield = shield;
     
     i++;
     Champs.push_back(Janna);
@@ -1599,34 +1856,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     J4.name = ;
-    J4.tank = ;
-    J4.range = ;
-    J4.cc = ;
-    J4.mobility = ;
-    J4.damage = ;
-    J4.heal = ;
-    J4.shield = ;
+    J4.tank = tank;
+    J4.range = range;
+    J4.cc = cc;
+    J4.mobility = mobility;
+    J4.damage = damage;
+    J4.heal = heal;
+    J4.shield = shield;
     
     i++;
     Champs.push_back(J4);
@@ -1636,34 +1900,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Jax.name = ;
-    Jax.tank = ;
-    Jax.range = ;
-    Jax.cc = ;
-    Jax.mobility = ;
-    Jax.damage = ;
-    Jax.heal = ;
-    Jax.shield = ;
+    Jax.tank = tank;
+    Jax.range = range;
+    Jax.cc = cc;
+    Jax.mobility = mobility;
+    Jax.damage = damage;
+    Jax.heal = heal;
+    Jax.shield = shield;
     
     i++;
     Champs.push_back(Jax);
@@ -1673,34 +1944,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Jayce.name = ;
-    Jayce.tank = ;
-    Jayce.range = ;
-    Jayce.cc = ;
-    Jayce.mobility = ;
-    Jayce.damage = ;
-    Jayce.heal = ;
-    Jayce.shield = ;
+    Jayce.tank = tank;
+    Jayce.range = range;
+    Jayce.cc = cc;
+    Jayce.mobility = mobility;
+    Jayce.damage = damage;
+    Jayce.heal = heal;
+    Jayce.shield = shield;
     
     i++;
     Champs.push_back(Jayce);
@@ -1710,34 +1988,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Jhin.name = ;
-    Jhin.tank = ;
-    Jhin.range = ;
-    Jhin.cc = ;
-    Jhin.mobility = ;
-    Jhin.damage = ;
-    Jhin.heal = ;
-    Jhin.shield = ;
+    Jhin.tank = tank;
+    Jhin.range = range;
+    Jhin.cc = cc;
+    Jhin.mobility = mobility;
+    Jhin.damage = damage;
+    Jhin.heal = heal;
+    Jhin.shield = shield;
     
     i++;
     Champs.push_back(Jhin);
@@ -1747,34 +2032,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Jinx.name = ;
-    Jinx.tank = ;
-    Jinx.range = ;
-    Jinx.cc = ;
-    Jinx.mobility = ;
-    Jinx.damage = ;
-    Jinx.heal = ;
-    Jinx.shield = ;
+    Jinx.tank = tank;
+    Jinx.range = range;
+    Jinx.cc = cc;
+    Jinx.mobility = mobility;
+    Jinx.damage = damage;
+    Jinx.heal = heal;
+    Jinx.shield = shield;
     
     i++;
     Champs.push_back(Jinx);
@@ -1784,34 +2076,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kalista.name = ;
-    Kalista.tank = ;
-    Kalista.range = ;
-    Kalista.cc = ;
-    Kalista.mobility = ;
-    Kalista.damage = ;
-    Kalista.heal = ;
-    Kalista.shield = ;
+    Kalista.tank = tank;
+    Kalista.range = range;
+    Kalista.cc = cc;
+    Kalista.mobility = mobility;
+    Kalista.damage = damage;
+    Kalista.heal = heal;
+    Kalista.shield = shield;
     
     i++;
     Champs.push_back(Kalista);
@@ -1821,34 +2120,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Karma.name = ;
-    Karma.tank = ;
-    Karma.range = ;
-    Karma.cc = ;
-    Karma.mobility = ;
-    Karma.damage = ;
-    Karma.heal = ;
-    Karma.shield = ;
+    Karma.tank = tank;
+    Karma.range = range;
+    Karma.cc = cc;
+    Karma.mobility = mobility;
+    Karma.damage = damage;
+    Karma.heal = heal;
+    Karma.shield = shield;
     
     i++;
     Champs.push_back(Karma);
@@ -1858,34 +2164,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Karthus.name = ;
-    Karthus.tank = ;
-    Karthus.range = ;
-    Karthus.cc = ;
-    Karthus.mobility = ;
-    Karthus.damage = ;
-    Karthus.heal = ;
-    Karthus.shield = ;
+    Karthus.tank = tank;
+    Karthus.range = range;
+    Karthus.cc = cc;
+    Karthus.mobility = mobility;
+    Karthus.damage = damage;
+    Karthus.heal = heal;
+    Karthus.shield = shield;
     
     i++;
     Champs.push_back(Karthus);
@@ -1895,34 +2208,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kassadin.name = ;
-    Kassadin.tank = ;
-    Kassadin.range = ;
-    Kassadin.cc = ;
-    Kassadin.mobility = ;
-    Kassadin.damage = ;
-    Kassadin.heal = ;
-    Kassadin.shield = ;
+    Kassadin.tank = tank;
+    Kassadin.range = range;
+    Kassadin.cc = cc;
+    Kassadin.mobility = mobility;
+    Kassadin.damage = damage;
+    Kassadin.heal = heal;
+    Kassadin.shield = shield;
     
     i++;
     Champs.push_back(Kassadin);
@@ -1932,34 +2252,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kat.name = ;
-    Kat.tank = ;
-    Kat.range = ;
-    Kat.cc = ;
-    Kat.mobility = ;
-    Kat.damage = ;
-    Kat.heal = ;
-    Kat.shield = ;
+    Kat.tank = tank;
+    Kat.range = range;
+    Kat.cc = cc;
+    Kat.mobility = mobility;
+    Kat.damage = damage;
+    Kat.heal = heal;
+    Kat.shield = shield;
     
     i++;
     Champs.push_back(Kat);
@@ -1969,34 +2296,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kayle.name = ;
-    Kayle.tank = ;
-    Kayle.range = ;
-    Kayle.cc = ;
-    Kayle.mobility = ;
-    Kayle.damage = ;
-    Kayle.heal = ;
-    Kayle.shield = ;
+    Kayle.tank = tank;
+    Kayle.range = range;
+    Kayle.cc = cc;
+    Kayle.mobility = mobility;
+    Kayle.damage = damage;
+    Kayle.heal = heal;
+    Kayle.shield = shield;
     
     i++;
     Champs.push_back(Kayle);
@@ -2006,34 +2340,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kayn.name = ;
-    Kayn.tank = ;
-    Kayn.range = ;
-    Kayn.cc = ;
-    Kayn.mobility = ;
-    Kayn.damage = ;
-    Kayn.heal = ;
-    Kayn.shield = ;
+    Kayn.tank = tank;
+    Kayn.range = range;
+    Kayn.cc = cc;
+    Kayn.mobility = mobility;
+    Kayn.damage = damage;
+    Kayn.heal = heal;
+    Kayn.shield = shield;
     
     i++;
     Champs.push_back(Kayn);
@@ -2043,34 +2384,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kennen.name = ;
-    Kennen.tank = ;
-    Kennen.range = ;
-    Kennen.cc = ;
-    Kennen.mobility = ;
-    Kennen.damage = ;
-    Kennen.heal = ;
-    Kennen.shield = ;
+    Kennen.tank = tank;
+    Kennen.range = range;
+    Kennen.cc = cc;
+    Kennen.mobility = mobility;
+    Kennen.damage = damage;
+    Kennen.heal = heal;
+    Kennen.shield = shield;
     
     i++;
     Champs.push_back(Kennen);
@@ -2080,34 +2428,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kha.name = ;
-    Kha.tank = ;
-    Kha.range = ;
-    Kha.cc = ;
-    Kha.mobility = ;
-    Kha.damage = ;
-    Kha.heal = ;
-    Kha.shield = ;
+    Kha.tank = tank;
+    Kha.range = range;
+    Kha.cc = cc;
+    Kha.mobility = mobility;
+    Kha.damage = damage;
+    Kha.heal = heal;
+    Kha.shield = shield;
     
     i++;
     Champs.push_back(Kha);
@@ -2117,34 +2472,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kindred.name = ;
-    Kindred.tank = ;
-    Kindred.range = ;
-    Kindred.cc = ;
-    Kindred.mobility = ;
-    Kindred.damage = ;
-    Kindred.heal = ;
-    Kindred.shield = ;
+    Kindred.tank = tank;
+    Kindred.range = range;
+    Kindred.cc = cc;
+    Kindred.mobility = mobility;
+    Kindred.damage = damage;
+    Kindred.heal = heal;
+    Kindred.shield = shield;
     
     i++;
     Champs.push_back(Kindred);
@@ -2154,34 +2516,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kled.name = ;
-    Kled.tank = ;
-    Kled.range = ;
-    Kled.cc = ;
-    Kled.mobility = ;
-    Kled.damage = ;
-    Kled.heal = ;
-    Kled.shield = ;
+    Kled.tank = tank;
+    Kled.range = range;
+    Kled.cc = cc;
+    Kled.mobility = mobility;
+    Kled.damage = damage;
+    Kled.heal = heal;
+    Kled.shield = shield;
     
     i++;
     Champs.push_back(Kled);
@@ -2191,34 +2560,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Kog.name = ;
-    Kog.tank = ;
-    Kog.range = ;
-    Kog.cc = ;
-    Kog.mobility = ;
-    Kog.damage = ;
-    Kog.heal = ;
-    Kog.shield = ;
+    Kog.tank = tank;
+    Kog.range = range;
+    Kog.cc = cc;
+    Kog.mobility = mobility;
+    Kog.damage = damage;
+    Kog.heal = heal;
+    Kog.shield = shield;
     
     i++;
     Champs.push_back(Kog);
@@ -2228,34 +2604,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Leblanc.name = ;
-    Leblanc.tank = ;
-    Leblanc.range = ;
-    Leblanc.cc = ;
-    Leblanc.mobility = ;
-    Leblanc.damage = ;
-    Leblanc.heal = ;
-    Leblanc.shield = ;
+    Leblanc.tank = tank;
+    Leblanc.range = range;
+    Leblanc.cc = cc;
+    Leblanc.mobility = mobility;
+    Leblanc.damage = damage;
+    Leblanc.heal = heal;
+    Leblanc.shield = shield;
     
     i++;
     Champs.push_back(Leblanc);
@@ -2265,34 +2648,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Lee.name = ;
-    Lee.tank = ;
-    Lee.range = ;
-    Lee.cc = ;
-    Lee.mobility = ;
-    Lee.damage = ;
-    Lee.heal = ;
-    Lee.shield = ;
+    Lee.tank = tank;
+    Lee.range = range;
+    Lee.cc = cc;
+    Lee.mobility = mobility;
+    Lee.damage = damage;
+    Lee.heal = heal;
+    Lee.shield = shield;
     
     i++;
     Champs.push_back(Lee);
@@ -2302,34 +2692,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Leo.name = ;
-    Leo.tank = ;
-    Leo.range = ;
-    Leo.cc = ;
-    Leo.mobility = ;
-    Leo.damage = ;
-    Leo.heal = ;
-    Leo.shield = ;
+    Leo.tank = tank;
+    Leo.range = range;
+    Leo.cc = cc;
+    Leo.mobility = mobility;
+    Leo.damage = damage;
+    Leo.heal = heal;
+    Leo.shield = shield;
     
     i++;
     Champs.push_back(Leo);
@@ -2339,34 +2736,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Liss.name = ;
-    Liss.tank = ;
-    Liss.range = ;
-    LissLiss.cc = ;
-    Liss.mobility = ;
-    Liss.damage = ;
-    Liss.heal = ;
-    Liss.shield = ;
+    Liss.tank = tank;
+    Liss.range = range;
+    LissLiss.cc = cc;
+    Liss.mobility = mobility;
+    Liss.damage = damage;
+    Liss.heal = heal;
+    Liss.shield = shield;
     
     i++;
     Champs.push_back(Liss);
@@ -2376,34 +2780,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Lucian.name = ;
-    Lucian.tank = ;
-    Lucian.range = ;
-    LucianLucian.cc = ;
-    Lucian.mobility = ;
-    Lucian.damage = ;
-    Lucian.heal = ;
-    Lucian.shield = ;
+    Lucian.tank = tank;
+    Lucian.range = range;
+    LucianLucian.cc = cc;
+    Lucian.mobility = mobility;
+    Lucian.damage = damage;
+    Lucian.heal = heal;
+    Lucian.shield = shield;
     
     i++;
     Champs.push_back(Lucian);
@@ -2413,34 +2824,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Lulu.name = ;
-    Lulu.tank = ;
-    Lulu.range = ;
-    Lulu.cc = ;
-    Lulu.mobility = ;
-    Lulu.damage = ;
-    Lulu.heal = ;
-    Lulu.shield = ;
+    Lulu.tank = tank;
+    Lulu.range = range;
+    Lulu.cc = cc;
+    Lulu.mobility = mobility;
+    Lulu.damage = damage;
+    Lulu.heal = heal;
+    Lulu.shield = shield;
     
     i++;
     Champs.push_back(Lulu);
@@ -2450,34 +2868,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Lux.name = ;
-    Lux.tank = ;
-    Lux.range = ;
-    Lux.cc = ;
-    Lux.mobility = ;
-    Lux.damage = ;
-    Lux.heal = ;
-    Lux.shield = ;
+    Lux.tank = tank;
+    Lux.range = range;
+    Lux.cc = cc;
+    Lux.mobility = mobility;
+    Lux.damage = damage;
+    Lux.heal = heal;
+    Lux.shield = shield;
     
     i++;
     Champs.push_back(Lux);
@@ -2487,34 +2912,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Malphite.name = ;
-    Malphite.tank = ;
-    Malphite.range = ;
-    Malphite.cc = ;
-    Malphite.mobility = ;
-    Malphite.damage = ;
-    Malphite.heal = ;
-    Malphite.shield = ;
+    Malphite.tank = tank;
+    Malphite.range = range;
+    Malphite.cc = cc;
+    Malphite.mobility = mobility;
+    Malphite.damage = damage;
+    Malphite.heal = heal;
+    Malphite.shield = shield;
     
     i++;
     Champs.push_back(Malphite);
@@ -2524,34 +2956,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Malzahar.name = ;
-    Malzahar.tank = ;
-    Malzahar.range = ;
-    Malzahar.cc = ;
-    Malzahar.mobility = ;
-    Malzahar.damage = ;
-    Malzahar.heal = ;
-    Malzahar.shield = ;
+    Malzahar.tank = tank;
+    Malzahar.range = range;
+    Malzahar.cc = cc;
+    Malzahar.mobility = mobility;
+    Malzahar.damage = damage;
+    Malzahar.heal = heal;
+    Malzahar.shield = shield;
     
     i++;
     Champs.push_back(Malzahar);
@@ -2561,34 +3000,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Tree.name = ;
-    Tree.tank = ;
-    Tree.range = ;
-    Tree.cc = ;
-    Tree.mobility = ;
-    Tree.damage = ;
-    Tree.heal = ;
-    Tree.shield = ;
+    Tree.tank = tank;
+    Tree.range = range;
+    Tree.cc = cc;
+    Tree.mobility = mobility;
+    Tree.damage = damage;
+    Tree.heal = heal;
+    Tree.shield = shield;
     
     i++;
     Champs.push_back(Tree);
@@ -2598,34 +3044,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Yi.name = ;
-    Yi.tank = ;
-    Yi.range = ;
-    Yi.cc = ;
-    Yi.mobility = ;
-    Yi.damage = ;
-    Yi.heal = ;
-    Yi.shield = ;
+    Yi.tank = tank;
+    Yi.range = range;
+    Yi.cc = cc;
+    Yi.mobility = mobility;
+    Yi.damage = damage;
+    Yi.heal = heal;
+    Yi.shield = shield;
     
     i++;
     Champs.push_back(Yi);
@@ -2635,34 +3088,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     MF.name = ;
-    MF.tank = ;
-    MF.range = ;
-    MF.cc = ;
-    MF.mobility = ;
-    MF.damage = ;
-    MF.heal = ;
-    MF.shield = ;
+    MF.tank = tank;
+    MF.range = range;
+    MF.cc = cc;
+    MF.mobility = mobility;
+    MF.damage = damage;
+    MF.heal = heal;
+    MF.shield = shield;
     
     i++;
     Champs.push_back(MF);
@@ -2672,34 +3132,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Mord.name = ;
-    Mord.tank = ;
-    Mord.range = ;
-    Mord.cc = ;
-    Mord.mobility = ;
-    Mord.damage = ;
-    Mord.heal = ;
-    Mord.shield = ;
+    Mord.tank = tank;
+    Mord.range = range;
+    Mord.cc = cc;
+    Mord.mobility = mobility;
+    Mord.damage = damage;
+    Mord.heal = heal;
+    Mord.shield = shield;
     
     i++;
     Champs.push_back(Mord);
@@ -2709,34 +3176,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Morg.name = ;
-    Morg.tank = ;
-    Morg.range = ;
-    Morg.cc = ;
-    Morg.mobility = ;
-    Morg.damage = ;
-    Morg.heal = ;
-    Morg.shield = ;
+    Morg.tank = tank;
+    Morg.range = range;
+    Morg.cc = cc;
+    Morg.mobility = mobility;
+    Morg.damage = damage;
+    Morg.heal = heal;
+    Morg.shield = shield;
     
     i++;
     Champs.push_back(Morg);
@@ -2746,34 +3220,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Nami.name = ;
-    Nami.tank = ;
-    Nami.range = ;
-    Nami.cc = ;
-    Nami.mobility = ;
-    Nami.damage = ;
-    Nami.heal = ;
-    Nami.shield = ;
+    Nami.tank = tank;
+    Nami.range = range;
+    Nami.cc = cc;
+    Nami.mobility = mobility;
+    Nami.damage = damage;
+    Nami.heal = heal;
+    Nami.shield = shield;
     
     i++;
     Champs.push_back(Nami);
@@ -2783,34 +3264,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Susan.name = ;
-    Susan.tank = ;
-    Susan.range = ;
-    Susan.cc = ;
-    Susan.mobility = ;
-    Susan.damage = ;
-    Susan.heal = ;
-    Susan.shield = ;
+    Susan.tank = tank;
+    Susan.range = range;
+    Susan.cc = cc;
+    Susan.mobility = mobility;
+    Susan.damage = damage;
+    Susan.heal = heal;
+    Susan.shield = shield;
     
     i++;
     Champs.push_back(Susan);
@@ -2820,34 +3308,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Naut.name = ;
-    Naut.tank = ;
-    Naut.range = ;
-    Naut.cc = ;
-    Naut.mobility = ;
-    Naut.damage = ;
-    Naut.heal = ;
-    Naut.shield = ;
+    Naut.tank = tank;
+    Naut.range = range;
+    Naut.cc = cc;
+    Naut.mobility = mobility;
+    Naut.damage = damage;
+    Naut.heal = heal;
+    Naut.shield = shield;
     
     i++;
     Champs.push_back(Naut);
@@ -2857,34 +3352,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Nid.name = ;
-    Nid.tank = ;
-    Nid.range = ;
-    Nid.cc = ;
-    Nid.mobility = ;
-    Nid.damage = ;
-    Nid.heal = ;
-    Nid.shield = ;
+    Nid.tank = tank;
+    Nid.range = range;
+    Nid.cc = cc;
+    Nid.mobility = mobility;
+    Nid.damage = damage;
+    Nid.heal = heal;
+    Nid.shield = shield;
     
     i++;
     Champs.push_back(Nid);
@@ -2894,34 +3396,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Noct.name = ;
-    Noct.tank = ;
-    Noct.range = ;
-    Noct.cc = ;
-    Noct.mobility = ;
-    Noct.damage = ;
-    Noct.heal = ;
-    Noct.shield = ;
+    Noct.tank = tank;
+    Noct.range = range;
+    Noct.cc = cc;
+    Noct.mobility = mobility;
+    Noct.damage = damage;
+    Noct.heal = heal;
+    Noct.shield = shield;
     
     i++;
     Champs.push_back(Noct);
@@ -2931,34 +3440,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Nunu.name = ;
-    Nunu.tank = ;
-    Nunu.range = ;
-    Nunu.cc = ;
-    Nunu.mobility = ;
-    Nunu.damage = ;
-    Nunu.heal = ;
-    Nunu.shield = ;
+    Nunu.tank = tank;
+    Nunu.range = range;
+    Nunu.cc = cc;
+    Nunu.mobility = mobility;
+    Nunu.damage = damage;
+    Nunu.heal = heal;
+    Nunu.shield = shield;
     
     i++;
     Champs.push_back(Nunu);
@@ -2968,34 +3484,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Olaf.name = ;
-    Olaf.tank = ;
-    Olaf.range = ;
-    Olaf.cc = ;
-    Olaf.mobility = ;
-    Olaf.damage = ;
-    Olaf.heal = ;
-    Olaf.shield = ;
+    Olaf.tank = tank;
+    Olaf.range = range;
+    Olaf.cc = cc;
+    Olaf.mobility = mobility;
+    Olaf.damage = damage;
+    Olaf.heal = heal;
+    Olaf.shield = shield;
     
     i++;
     Champs.push_back(Olaf);
@@ -3005,34 +3528,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Ori.name = ;
-    Ori.tank = ;
-    Ori.range = ;
-    Ori.cc = ;
-    Ori.mobility = ;
-    Ori.damage = ;
-    Ori.heal = ;
-    Ori.shield = ;
+    Ori.tank = tank;
+    Ori.range = range;
+    Ori.cc = cc;
+    Ori.mobility = mobility;
+    Ori.damage = damage;
+    Ori.heal = heal;
+    Ori.shield = shield;
     
     i++;
     Champs.push_back(Ori);
@@ -3042,34 +3572,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Panth.name = ;
-    Panth.tank = ;
-    Panth.range = ;
-    Panth.cc = ;
-    Panth.mobility = ;
-    Panth.damage = ;
-    Panth.heal = ;
-    Panth.shield = ;
+    Panth.tank = tank;
+    Panth.range = range;
+    Panth.cc = cc;
+    Panth.mobility = mobility;
+    Panth.damage = damage;
+    Panth.heal = heal;
+    Panth.shield = shield;
     
     i++;
     Champs.push_back(Panth);
@@ -3079,34 +3616,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Poppy.name = ;
-    Poppy.tank = ;
-    Poppy.range = ;
-    Poppy.cc = ;
-    Poppy.mobility = ;
-    Poppy.damage = ;
-    Poppy.heal = ;
-    Poppy.shield = ;
+    Poppy.tank = tank;
+    Poppy.range = range;
+    Poppy.cc = cc;
+    Poppy.mobility = mobility;
+    Poppy.damage = damage;
+    Poppy.heal = heal;
+    Poppy.shield = shield;
     
     i++;
     Champs.push_back(Poppy);
@@ -3116,34 +3660,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Quinn.name = ;
-    Quinn.tank = ;
-    Quinn.range = ;
-    Quinn.cc = ;
-    Quinn.mobility = ;
-    Quinn.damage = ;
-    Quinn.heal = ;
-    Quinn.shield = ;
+    Quinn.tank = tank;
+    Quinn.range = range;
+    Quinn.cc = cc;
+    Quinn.mobility = mobility;
+    Quinn.damage = damage;
+    Quinn.heal = heal;
+    Quinn.shield = shield;
     
     i++;
     Champs.push_back(Quinn);
@@ -3153,34 +3704,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Rakan.name = ;
-    Rakan.tank = ;
-    Rakan.range = ;
-    Rakan.cc = ;
-    Rakan.mobility = ;
-    Rakan.damage = ;
-    Rakan.heal = ;
-    Rakan.shield = ;
+    Rakan.tank = tank;
+    Rakan.range = range;
+    Rakan.cc = cc;
+    Rakan.mobility = mobility;
+    Rakan.damage = damage;
+    Rakan.heal = heal;
+    Rakan.shield = shield;
     
     i++;
     Champs.push_back(Rakan);
@@ -3190,34 +3748,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Rammus.name = ;
-    Rammus.tank = ;
-    Rammus.range = ;
-    Rammus.cc = ;
-    Rammus.mobility = ;
-    Rammus.damage = ;
-    Rammus.heal = ;
-    Rammus.shield = ;
+    Rammus.tank = tank;
+    Rammus.range = range;
+    Rammus.cc = cc;
+    Rammus.mobility = mobility;
+    Rammus.damage = damage;
+    Rammus.heal = heal;
+    Rammus.shield = shield;
     
     i++;
     Champs.push_back(Rammus);
@@ -3227,34 +3792,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Rek.name = ;
-    Rek.tank = ;
-    Rek.range = ;
-    Rek.cc = ;
-    Rek.mobility = ;
-    Rek.damage = ;
-    Rek.heal = ;
-    Rek.shield = ;
+    Rek.tank = tank;
+    Rek.range = range;
+    Rek.cc = cc;
+    Rek.mobility = mobility;
+    Rek.damage = damage;
+    Rek.heal = heal;
+    Rek.shield = shield;
     
     i++;
     Champs.push_back(Rek);
@@ -3264,34 +3836,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Renekton.name = ;
-    Renekton.tank = ;
-    Renekton.range = ;
-    Renekton.cc = ;
-    Renekton.mobility = ;
-    Renekton.damage = ;
-    Renekton.heal = ;
-    Renekton.shield = ;
+    Renekton.tank = tank;
+    Renekton.range = range;
+    Renekton.cc = cc;
+    Renekton.mobility = mobility;
+    Renekton.damage = damage;
+    Renekton.heal = heal;
+    Renekton.shield = shield;
     
     i++;
     Champs.push_back(Renekton);
@@ -3301,34 +3880,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Rengar.name = ;
-    Rengar.tank = ;
-    Rengar.range = ;
-    Rengar.cc = ;
-    Rengar.mobility = ;
-    Rengar.damage = ;
-    Rengar.heal = ;
-    Rengar.shield = ;
+    Rengar.tank = tank;
+    Rengar.range = range;
+    Rengar.cc = cc;
+    Rengar.mobility = mobility;
+    Rengar.damage = damage;
+    Rengar.heal = heal;
+    Rengar.shield = shield;
     
     i++;
     Champs.push_back(Rengar);
@@ -3338,34 +3924,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Riven.name = ;
-    Riven.tank = ;
-    Riven.range = ;
-    Riven.cc = ;
-    Riven.mobility = ;
-    Riven.damage = ;
-    Riven.heal = ;
-    Riven.shield = ;
+    Riven.tank = tank;
+    Riven.range = range;
+    Riven.cc = cc;
+    Riven.mobility = mobility;
+    Riven.damage = damage;
+    Riven.heal = heal;
+    Riven.shield = shield;
     
     i++;
     Champs.push_back(Riven);
@@ -3375,34 +3968,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Rumble.name = ;
-    Rumble.tank = ;
-    Rumble.range = ;
-    Rumble.cc = ;
-    Rumble.mobility = ;
-    Rumble.damage = ;
-    Rumble.heal = ;
-    Rumble.shield = ;
+    Rumble.tank = tank;
+    Rumble.range = range;
+    Rumble.cc = cc;
+    Rumble.mobility = mobility;
+    Rumble.damage = damage;
+    Rumble.heal = heal;
+    Rumble.shield = shield;
     
     i++;
     Champs.push_back(Rumble);
@@ -3412,34 +4012,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Ryze.name = ;
-    Ryze.tank = ;
-    Ryze.range = ;
-    Ryze.cc = ;
-    Ryze.mobility = ;
-    Ryze.damage = ;
-    Ryze.heal = ;
-    Ryze.shield = ;
+    Ryze.tank = tank;
+    Ryze.range = range;
+    Ryze.cc = cc;
+    Ryze.mobility = mobility;
+    Ryze.damage = damage;
+    Ryze.heal = heal;
+    Ryze.shield = shield;
     
     i++;
     Champs.push_back(Ryze);
@@ -3449,34 +4056,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Sej.name = ;
-    Sej.tank = ;
-    Sej.range = ;
-    Sej.cc = ;
-    Sej.mobility = ;
-    Sej.damage = ;
-    Sej.heal = ;
-    Sej.shield = ;
+    Sej.tank = tank;
+    Sej.range = range;
+    Sej.cc = cc;
+    Sej.mobility = mobility;
+    Sej.damage = damage;
+    Sej.heal = heal;
+    Sej.shield = shield;
     
     i++;
     Champs.push_back(Sej);
@@ -3486,34 +4100,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Shaco.name = ;
-    Shaco.tank = ;
-    Shaco.range = ;
-    Shaco.cc = ;
-    Shaco.mobility = ;
-    Shaco.damage = ;
-    Shaco.heal = ;
-    Shaco.shield = ;
+    Shaco.tank = tank;
+    Shaco.range = range;
+    Shaco.cc = cc;
+    Shaco.mobility = mobility;
+    Shaco.damage = damage;
+    Shaco.heal = heal;
+    Shaco.shield = shield;
     
     i++;
     Champs.push_back(Shaco);
@@ -3523,34 +4144,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Shen.name = ;
-    Shen.tank = ;
-    Shen.range = ;
-    Shen.cc = ;
-    Shen.mobility = ;
-    Shen.damage = ;
-    Shen.heal = ;
-    Shen.shield = ;
+    Shen.tank = tank;
+    Shen.range = range;
+    Shen.cc = cc;
+    Shen.mobility = mobility;
+    Shen.damage = damage;
+    Shen.heal = heal;
+    Shen.shield = shield;
     
     i++;
     Champs.push_back(Shen);
@@ -3560,34 +4188,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Shyv.name = ;
-    Shyv.tank = ;
-    Shyv.range = ;
-    Shyv.cc = ;
-    Shyv.mobility = ;
-    Shyv.damage = ;
-    Shyv.heal = ;
-    Shyv.shield = ;
+    Shyv.tank = tank;
+    Shyv.range = range;
+    Shyv.cc = cc;
+    Shyv.mobility = mobility;
+    Shyv.damage = damage;
+    Shyv.heal = heal;
+    Shyv.shield = shield;
     
     i++;
     Champs.push_back(Shyv);
@@ -3597,34 +4232,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Singed.name = ;
-    Singed.tank = ;
-    Singed.range = ;
-    Singed.cc = ;
-    Singed.mobility = ;
-    Singed.damage = ;
-    Singed.heal = ;
-    Singed.shield = ;
+    Singed.tank = tank;
+    Singed.range = range;
+    Singed.cc = cc;
+    Singed.mobility = mobility;
+    Singed.damage = damage;
+    Singed.heal = heal;
+    Singed.shield = shield;
     
     i++;
     Champs.push_back(Singed);
@@ -3634,34 +4276,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Sion.name = ;
-    Sion.tank = ;
-    Sion.range = ;
-    Sion.cc = ;
-    Sion.mobility = ;
-    Sion.damage = ;
-    Sion.heal = ;
-    Sion.shield = ;
+    Sion.tank = tank;
+    Sion.range = range;
+    Sion.cc = cc;
+    Sion.mobility = mobility;
+    Sion.damage = damage;
+    Sion.heal = heal;
+    Sion.shield = shield;
     
     i++;
     Champs.push_back(Sion);
@@ -3671,34 +4320,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Sivir.name = ;
-    Sivir.tank = ;
-    Sivir.range = ;
-    Sivir.cc = ;
-    Sivir.mobility = ;
-    Sivir.damage = ;
-    Sivir.heal = ;
-    Sivir.shield = ;
+    Sivir.tank = tank;
+    Sivir.range = range;
+    Sivir.cc = cc;
+    Sivir.mobility = mobility;
+    Sivir.damage = damage;
+    Sivir.heal = heal;
+    Sivir.shield = shield;
     
     i++;
     Champs.push_back(Sivir);
@@ -3708,34 +4364,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Skarner.name = ;
-    Skarner.tank = ;
-    Skarner.range = ;
-    Skarner.cc = ;
-    Skarner.mobility = ;
-    Skarner.damage = ;
-    Skarner.heal = ;
-    Skarner.shield = ;
+    Skarner.tank = tank;
+    Skarner.range = range;
+    Skarner.cc = cc;
+    Skarner.mobility = mobility;
+    Skarner.damage = damage;
+    Skarner.heal = heal;
+    Skarner.shield = shield;
     
     i++;
     Champs.push_back(Skarner);
@@ -3745,34 +4408,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Sona.name = ;
-    Sona.tank = ;
-    Sona.range = ;
-    Sona.cc = ;
-    Sona.mobility = ;
-    Sona.damage = ;
-    Sona.heal = ;
-    Sona.shield = ;
+    Sona.tank = tank;
+    Sona.range = range;
+    Sona.cc = cc;
+    Sona.mobility = mobility;
+    Sona.damage = damage;
+    Sona.heal = heal;
+    Sona.shield = shield;
     
     i++;
     Champs.push_back(Sona);
@@ -3782,34 +4452,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Soraka.name = ;
-    Soraka.tank = ;
-    Soraka.range = ;
-    Soraka.cc = ;
-    Soraka.mobility = ;
-    Soraka.damage = ;
-    Soraka.heal = ;
-    Soraka.shield = ;
+    Soraka.tank = tank;
+    Soraka.range = range;
+    Soraka.cc = cc;
+    Soraka.mobility = mobility;
+    Soraka.damage = damage;
+    Soraka.heal = heal;
+    Soraka.shield = shield;
     
     i++;
     Champs.push_back(Soraka);
@@ -3819,34 +4496,41 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
+    {x++;}
+    shield = line[x];
+x++;
     Swain.name = ;
-    Swain.tank = ;
-    Swain.range = ;
-    Swain.cc = ;
-    Swain.mobility = ;
-    Swain.damage = ;
-    Swain.heal = ;
-    Swain.shield = ;
+    Swain.tank = tank;
+    Swain.range = range;
+    Swain.cc = cc;
+    Swain.mobility = mobility;
+    Swain.damage = damage;
+    Swain.heal = heal;
+    Swain.shield = shield;
     
     i++;
     Champs.push_back(Swain);
@@ -3856,1284 +4540,1497 @@ getline(myfile, line);
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Syndra.name = ;
-    Syndra.tank = ;
-    Syndra.range = ;
-    Syndra.cc = ;
-    Syndra.mobility = ;
-    Syndra.damage = ;
-    Syndra.heal = ;
-    Syndra.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Syndra.tank = tank;
+    Syndra.range = range;
+    Syndra.cc = cc;
+    Syndra.mobility = mobility;
+    Syndra.damage = damage;
+    Syndra.heal = heal;
+    Syndra.shield = shield;
     
     i++;
     Champs.push_back(Syndra);
     
+	//Tahm Kench
     Champion Toad;
     Toad.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Toad.name = ;
-    Toad.tank = ;
-    Toad.range = ;
-    Toad.cc = ;
-    Toad.mobility = ;
-    Toad.damage = ;
-    Toad.heal = ;
-    Toad.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Toad.tank = tank;
+    Toad.range = range;
+    Toad.cc = cc;
+    Toad.mobility = mobility;
+    Toad.damage = damage;
+    Toad.heal = heal;
+    Toad.shield = shield;
     
     i++;
     Champs.push_back(Toad);
     
+	//Taliyah
     Champion Taliyah;
     Taliyah.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Taliyah.name = ;
-    Taliyah.tank = ;
-    Taliyah.range = ;
-    Taliyah.cc = ;
-    Taliyah.mobility = ;
-    Taliyah.damage = ;
-    Taliyah.heal = ;
-    Taliyah.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Taliyah.tank = tank;
+    Taliyah.range = range;
+    Taliyah.cc = cc;
+    Taliyah.mobility = mobility;
+    Taliyah.damage = damage;
+    Taliyah.heal = heal;
+    Taliyah.shield = shield;
     
     i++;
     Champs.push_back(Taliyah);
     
+	//Talon
     Champion Talon;
     Talon.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Talon.name = ;
-    Talon.tank = ;
-    Talon.range = ;
-    Talon.cc = ;
-    Talon.mobility = ;
-    Talon.damage = ;
-    Talon.heal = ;
-    Talon.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Talon.tank = tank;
+    Talon.range = range;
+    Talon.cc = cc;
+    Talon.mobility = mobility;
+    Talon.damage = damage;
+    Talon.heal = heal;
+    Talon.shield = shield;
     
     i++;
     Champs.push_back(Talon);
     
+	//Taric
     Champion Fabio;
     Fabio.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Fabio.name = ;
-    Fabio.tank = ;
-    Fabio.range = ;
-    Fabio.cc = ;
-    Fabio.mobility = ;
-    Fabio.damage = ;
-    Fabio.heal = ;
-    Fabio.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Fabio.tank = tank;
+    Fabio.range = range;
+    Fabio.cc = cc;
+    Fabio.mobility = mobility;
+    Fabio.damage = damage;
+    Fabio.heal = heal;
+    Fabio.shield = shield;
     
     i++;
     Champs.push_back(Fabio);
     
+	//Teemo
     Champion Satan;
     Satan.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Satan.name = ;
-    Satan.tank = ;
-    Satan.range = ;
-    Satan.cc = ;
-    Satan.mobility = ;
-    Satan.damage = ;
-    Satan.heal = ;
-    Satan.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Satan.tank = tank;
+    Satan.range = range;
+    Satan.cc = cc;
+    Satan.mobility = mobility;
+    Satan.damage = damage;
+    Satan.heal = heal;
+    Satan.shield = shield;
     
     i++;
     Champs.push_back(Satan);
     
+	//Thresh
     Champion Thresh;
     Thresh.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Thresh.name = ;
-    Thresh.tank = ;
-    Thresh.range = ;
-    Thresh.cc = ;
-    Thresh.mobility = ;
-    Thresh.damage = ;
-    Thresh.heal = ;
-    Thresh.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Thresh.tank = tank;
+    Thresh.range = range;
+    Thresh.cc = cc;
+    Thresh.mobility = mobility;
+    Thresh.damage = damage;
+    Thresh.heal = heal;
+    Thresh.shield = shield;
     
     i++;
     Champs.push_back(Thresh);
     
+	//Tristana
     Champion Trist;
     Trist.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Trist.name = ;
-    Trist.tank = ;
-    Trist.range = ;
-    Trist.cc = ;
-    Trist.mobility = ;
-    Trist.damage = ;
-    Trist.heal = ;
-    Trist.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Trist.tank = tank;
+    Trist.range = range;
+    Trist.cc = cc;
+    Trist.mobility = mobility;
+    Trist.damage = damage;
+    Trist.heal = heal;
+    Trist.shield = shield;
     
     i++;
     Champs.push_back(Trist);
     
+	//Trundle
     Champion Trundle;
     Trundle.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Trundle.name = ;
-    Trundle.tank = ;
-    Trundle.range = ;
-    Trundle.cc = ;
-    Trundle.mobility = ;
-    Trundle.damage = ;
-    Trundle.heal = ;
-    Trundle.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Trundle.tank = tank;
+    Trundle.range = range;
+    Trundle.cc = cc;
+    Trundle.mobility = mobility;
+    Trundle.damage = damage;
+    Trundle.heal = heal;
+    Trundle.shield = shield;
     
     i++;
     Champs.push_back(Trundle);
     
+	//Tryndamere
     Champion Trynd;
     Trynd.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Trynd.name = ;
-    Trynd.tank = ;
-    Trynd.range = ;
-    Trynd.cc = ;
-    Trynd.mobility = ;
-    Trynd.damage = ;
-    Trynd.heal = ;
-    Trynd.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Trynd.tank = tank;
+    Trynd.range = range;
+    Trynd.cc = cc;
+    Trynd.mobility = mobility;
+    Trynd.damage = damage;
+    Trynd.heal = heal;
+    Trynd.shield = shield;
     
     i++;
     Champs.push_back(Trynd);
     
+	//Twisted Fate
     Champion TF;
     TF.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    TF.name = ;
-    TF.tank = ;
-    TF.range = ;
-    TF.cc = ;
-    TF.mobility = ;
-    TF.damage = ;
-    TF.heal = ;
-    TF.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    TF.tank = tank;
+    TF.range = range;
+    TF.cc = cc;
+    TF.mobility = mobility;
+    TF.damage = damage;
+    TF.heal = heal;
+    TF.shield = shield;
     
     i++;
     Champs.push_back(TF);
     
+	//Twitch
     Champion Twitch;
     Twitch.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Twitch.name = ;
-    Twitch.tank = ;
-    Twitch.range = ;
-    Twitch.cc = ;
-    Twitch.mobility = ;
-    Twitch.damage = ;
-    Twitch.heal = ;
-    Twitch.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Twitch.tank = tank;
+    Twitch.range = range;
+    Twitch.cc = cc;
+    Twitch.mobility = mobility;
+    Twitch.damage = damage;
+    Twitch.heal = heal;
+    Twitch.shield = shield;
     
     i++;
     Champs.push_back(Twitch);
     
+	//Udyr
     Champion Udyr;
     Udyr.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Udyr.name = ;
-    Udyr.tank = ;
-    Udyr.range = ;
-    Udyr.cc = ;
-    Udyr.mobility = ;
-    Udyr.damage = ;
-    Udyr.heal = ;
-    Udyr.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Udyr.tank = tank;
+    Udyr.range = range;
+    Udyr.cc = cc;
+    Udyr.mobility = mobility;
+    Udyr.damage = damage;
+    Udyr.heal = heal;
+    Udyr.shield = shield;
     
     i++;
     Champs.push_back(Udyr);
     
+	//Urgot
     Champion Urgod;
     Urgod.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Urgod.name = ;
-    Urgod.tank = ;
-    Urgod.range = ;
-    Urgod.cc = ;
-    Urgod.mobility = ;
-    Urgod.damage = ;
-    Urgod.heal = ;
-    Urgod.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Urgod.tank = tank;
+    Urgod.range = range;
+    Urgod.cc = cc;
+    Urgod.mobility = mobility;
+    Urgod.damage = damage;
+    Urgod.heal = heal;
+    Urgod.shield = shield;
     
     i++;
     Champs.push_back(Urgod);
     
+	//Varus
     Champion Varus;
     Varus.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Varus.name = ;
-    Varus.tank = ;
-    Varus.range = ;
-    Varus.cc = ;
-    Varus.mobility = ;
-    Varus.damage = ;
-    Varus.heal = ;
-    Varus.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Varus.tank = tank;
+    Varus.range = range;
+    Varus.cc = cc;
+    Varus.mobility = mobility;
+    Varus.damage = damage;
+    Varus.heal = heal;
+    Varus.shield = shield;
     
     i++;
     Champs.push_back(Varus);
     
+	//Vayne
     Champion Vayne;
     Vayne.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Vayne.name = ;
-    Vayne.tank = ;
-    Vayne.range = ;
-    Vayne.cc = ;
-    Vayne.mobility = ;
-    Vayne.damage = ;
-    Vayne.heal = ;
-    Vayne.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Vayne.tank = tank;
+    Vayne.range = range;
+    Vayne.cc = cc;
+    Vayne.mobility = mobility;
+    Vayne.damage = damage;
+    Vayne.heal = heal;
+    Vayne.shield = shield;
     
     i++;
     Champs.push_back(Vayne);
     
+	//Veigar
     Champion Veigar;
     Veigar.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Veigar.name = ;
-    Veigar.tank = ;
-    Veigar.range = ;
-    Veigar.cc = ;
-    Veigar.mobility = ;
-    Veigar.damage = ;
-    Veigar.heal = ;
-    Veigar.shield = ;
-    
+    {x++;}
+    shield = line[x];
+x++;
+    Veigar.tank = tank;
+    Veigar.range = range;
+    Veigar.cc = cc;
+    Veigar.mobility = mobility;
+    Veigar.damage = damage;
+    Veigar.heal = heal;
+    Veigar.shield = shield;
     
     i++;
     Champs.push_back(Veigar);
     
+	//Vel'Koz
     Champion Vel;
     Vel.name = Champions[i];
 getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Vel.name = ;
-    Vel.tank = ;
-    Vel.range = ;
-    Vel.cc = ;
-    Vel.mobility = ;
-    Vel.damage = ;
-    Vel.heal = ;
-    Vel.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Vel.tank = tank;
+    Vel.range = range;
+    Vel.cc = cc;
+    Vel.mobility = mobility;
+    Vel.damage = damage;
+    Vel.heal = heal;
+    Vel.shield = shield;
     
     i++;
     Champs.push_back(Vel);
     
+	//Vi
     Champion Vi;
-    Vi.name = Champions[i];
-getline(myfile, line);
-    x = 0;
-    while(!isdigit(line[x]))
-    {x++};
-    tank = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    range = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    cc = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    mobility = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    damage = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    heal = line[x];
-    while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
     Vi.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Vi.name = ;
-    Vi.tank = ;
-    Vi.range = ;
-    Vi.cc = ;
-    Vi.mobility = ;
-    Vi.damage = ;
-    Vi.heal = ;
-    Vi.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Vi.tank = tank;
+    Vi.range = range;
+    Vi.cc = cc;
+    Vi.mobility = mobility;
+    Vi.damage = damage;
+    Vi.heal = heal;
+    Vi.shield = shield;
     
     i++;
     Champs.push_back(Vi);
     
+	//Viktor
     Champion Viktor;
     Viktor.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Viktor.name = ;
-    Viktor.tank = ;
-    Viktor.range = ;
-    Viktor.cc = ;
-    Viktor.mobility = ;
-    Viktor.damage = ;
-    Viktor.heal = ;
-    Viktor.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Viktor.tank = tank;
+    Viktor.range = range;
+    Viktor.cc = cc;
+    Viktor.mobility = mobility;
+    Viktor.damage = damage;
+    Viktor.heal = heal;
+    Viktor.shield = shield;
     
     i++;
     Champs.push_back(Viktor);
     
+	//Vladimir
     Champion Vlad;
     Vlad.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Vlad.name = ;
-    Vlad.tank = ;
-    Vlad.range = ;
-    Vlad.cc = ;
-    Vlad.mobility = ;
-    Vlad.damage = ;
-    Vlad.heal = ;
-    Vlad.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Vlad.tank = tank;
+    Vlad.range = range;
+    Vlad.cc = cc;
+    Vlad.mobility = mobility;
+    Vlad.damage = damage;
+    Vlad.heal = heal;
+    Vlad.shield = shield;
     
     i++;
     Champs.push_back(Vlad);
     
+	//Volibear
     Champion Voli;
     Voli.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Voli.name = ;
-    Voli.tank = ;
-    Voli.range = ;
-    Voli.cc = ;
-    Voli.mobility = ;
-    Voli.damage = ;
-    Voli.heal = ;
-    Voli.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Voli.tank = tank;
+    Voli.range = range;
+    Voli.cc = cc;
+    Voli.mobility = mobility;
+    Voli.damage = damage;
+    Voli.heal = heal;
+    Voli.shield = shield;
     
     i++;
     Champs.push_back(Voli);
     
+	//Warwick
     Champion WW;
     WW.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    WW.name = ;
-    WW.tank = ;
-    WW.range = ;
-    WW.cc = ;
-    WW.mobility = ;
-    WW.damage = ;
-    WW.heal = ;
-    WW.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    WW.tank = tank;
+    WW.range = range;
+    WW.cc = cc;
+    WW.mobility = mobility;
+    WW.damage = damage;
+    WW.heal = heal;
+    WW.shield = shield;
     
     i++;
     Champs.push_back(WW);
     
+	//Wukong
     Champion Wu;
     Wu.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Wu.name = ;
-    Wu.tank = ;
-    Wu.range = ;
-    Wu.cc = ;
-    Wu.mobility = ;
-    Wu.damage = ;
-    Wu.heal = ;
-    Wu.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Wu.tank = tank;
+    Wu.range = range;
+    Wu.cc = cc;
+    Wu.mobility = mobility;
+    Wu.damage = damage;
+    Wu.heal = heal;
+    Wu.shield = shield;
     
     i++;
     Champs.push_back(Wu);
     
+	//Xayah
     Champion Xayah;
     Xayah.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Xayah.name = ;
-    Xayah.tank = ;
-    Xayah.range = ;
-    Xayah.cc = ;
-    Xayah.mobility = ;
-    Xayah.damage = ;
-    Xayah.heal = ;
-    Xayah.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Xayah.tank = tank;
+    Xayah.range = range;
+    Xayah.cc = cc;
+    Xayah.mobility = mobility;
+    Xayah.damage = damage;
+    Xayah.heal = heal;
+    Xayah.shield = shield;
     
     i++;
     Champs.push_back(Xayah);
     
+	//Xerath
     Champion Xerath;
     Xerath.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Xerath.name = ;
-    Xerath.tank = ;
-    Xerath.range = ;
-    Xerath.cc = ;
-    Xerath.mobility = ;
-    Xerath.damage = ;
-    Xerath.heal = ;
-    Xerath.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Xerath.tank = tank;
+    Xerath.range = range;
+    Xerath.cc = cc;
+    Xerath.mobility = mobility;
+    Xerath.damage = damage;
+    Xerath.heal = heal;
+    Xerath.shield = shield;
     
     i++;
     Champs.push_back(Xerath);
     
+	//Xin Zhao
     Champion Xin;
     Xin.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Xin.name = ;
-    Xin.tank = ;
-    Xin.range = ;
-    Xin.cc = ;
-    Xin.mobility = ;
-    Xin.damage = ;
-    Xin.heal = ;
-    Xin.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Xin.tank = tank;
+    Xin.range = range;
+    Xin.cc = cc;
+    Xin.mobility = mobility;
+    Xin.damage = damage;
+    Xin.heal = heal;
+    Xin.shield = shield;
     
     i++;
     Champs.push_back(Xin);
     
+	//Yasuo
     Champion Yasuo;
     Yasuo.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Yasuo.name = ;
-    Yasuo.tank = ;
-    Yasuo.range = ;
-    Yasuo.cc = ;
-    Yasuo.mobility = ;
-    Yasuo.damage = ;
-    Yasuo.heal = ;
-    Yasuo.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Yasuo.tank = tank;
+    Yasuo.range = range;
+    Yasuo.cc = cc;
+    Yasuo.mobility = mobility;
+    Yasuo.damage = damage;
+    Yasuo.heal = heal;
+    Yasuo.shield = shield;
     
     i++;
     Champs.push_back(Yasuo);
     
+	//Yorick
     Champion Yorick;
     Yorick.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Yorick.name = ;
-    Yorick.tank = ;
-    Yorick.range = ;
-    Yorick.cc = ;
-    Yorick.mobility = ;
-    Yorick.damage = ;
-    Yorick.heal = ;
-    Yorick.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Yorick.tank = tank;
+    Yorick.range = range;
+    Yorick.cc = cc;
+    Yorick.mobility = mobility;
+    Yorick.damage = damage;
+    Yorick.heal = heal;
+    Yorick.shield = shield;
     
     i++;
     Champs.push_back(Yorick);
     
+	//Zac
     Champion Zac;
     Zac.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Zac.name = ;
-    Zac.tank = ;
-    Zac.range = ;
-    Zac.cc = ;
-    Zac.mobility = ;
-    Zac.damage = ;
-    Zac.heal = ;
-    Zac.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Zac.tank = tank;
+    Zac.range = range;
+    Zac.cc = cc;
+    Zac.mobility = mobility;
+    Zac.damage = damage;
+    Zac.heal = heal;
+    Zac.shield = shield;
     
     i++;
     Champs.push_back(Zac);
     
+	//Zed
     Champion Zed;
     Zed.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Zed.name = ;
-    Zed.tank = ;
-    Zed.range = ;
-    Zed.cc = ;
-    Zed.mobility = ;
-    Zed.damage = ;
-    Zed.heal = ;
-    Zed.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Zed.tank = tank;
+    Zed.range = range;
+    Zed.cc = cc;
+    Zed.mobility = mobility;
+    Zed.damage = damage;
+    Zed.heal = heal;
+    Zed.shield = shield;
     
     i++;
     Champs.push_back(Zed);
     
+	//Ziggs
     Champion Ziggs;
     Ziggs.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Ziggs.name = ;
-    Ziggs.tank = ;
-    Ziggs.range = ;
-    Ziggs.cc = ;
-    Ziggs.mobility = ;
-    Ziggs.damage = ;
-    Ziggs.heal = ;
-    Ziggs.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Ziggs.tank = tank;
+    Ziggs.range = range;
+    Ziggs.cc = cc;
+    Ziggs.mobility = mobility;
+    Ziggs.damage = damage;
+    Ziggs.heal = heal;
+    Ziggs.shield = shield;
     
     i++;
     Champs.push_back(Ziggs);
     
+	//Zilean
     Champion Zilean;
     Zilean.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Zilean.name = ;
-    Zilean.tank = ;
-    Zilean.range = ;
-    Zilean.cc = ;
-    Zilean.mobility = ;
-    Zilean.damage = ;
-    Zilean.heal = ;
-    Zilean.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Zilean.tank = tank;
+    Zilean.range = range;
+    Zilean.cc = cc;
+    Zilean.mobility = mobility;
+    Zilean.damage = damage;
+    Zilean.heal = heal;
+    Zilean.shield = shield;
     
     i++;
     Champs.push_back(Zilean);
-
+	
+	//Zyra
     Champion Zyra;
     Zyra.name = Champions[i];
 	getline(myfile, line);
     x = 0;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     tank = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     range = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     cc = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     mobility = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     damage = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
+    {x++;}
     heal = line[x];
+x++;
     while(!isdigit(line[x]))
-    {x++};
-    shield = line[x];[i];
-    Zyra.name = ;
-    Zyra.tank = ;
-    Zyra.range = ;
-    Zyra.cc = ;
-    Zyra.mobility = ;
-    Zyra.damage = ;
-    Zyra.heal = ;
-    Zyra.shield = ;
+    {x++;}
+    shield = line[x];
+x++;
+    Zyra.tank = tank;
+    Zyra.range = range;
+    Zyra.cc = cc;
+    Zyra.mobility = mobility;
+    Zyra.damage = damage;
+    Zyra.heal = heal;
+    Zyra.shield = shield;
     
     Champs.push_back(Zyra);
     
     cout << Champs[136].name << endl;
+
 
 };
 
