@@ -6,6 +6,7 @@
 #include <vector>
 #include <unordered_map>
 #include <iostream>
+#include <fstream>
 using namespace std;
 
 vector<string> Champions = {"Aatrox", "Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie", "Ashe", "Aurelion Sol", "Azir", "Bard", "Blitzcrank", "Brand", "Braum", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", "Corki", "Darius", "Diana", "Dr. Mundo",
@@ -36,61 +37,20 @@ struct Player { //Pool of Players
 	vector<string> pool;
 };
 
-void selectTank(){};
-void selectADC(){};
-void selectMid(){};
-void selectJG(){};
-void selectSupp(){};
+void initializeChamps(){ //Load recent data for each Champ
 
-
-vector<Player> Players; //In reality this is a small scope program. Vector should suffice. If used for large scale, change to a hashmap
-
-Player newPlayer(string name)
-{
-	Player *temp = new Player; //New temp Player
-	string champ;
-	temp->name = name; //Add the player's name
-	cout << "Please enter each champion in " << name << "'s pool, press enter between each. When you're done, type in quit" << endl;
-	do
-	{
-		cin >> champ;
-		temp->pool.push_back(champ);
-		cout << "Please enter a valid Champion/correct the incorrect name" << endl;
-		cout << "You entered: " << champ << endl;
-	} while (champ != "quit"); //Quit phrase is quit
-
-	return *temp;
-};
-
-void store()
-{
-	string name;
-	cout << "Please enter the Player's name" << endl;
-	cin >> name;
-	Players.push_back(newPlayer(name));
-	cout << "Player has been stored successfully" << endl;
-};
-
-void load()
-{
-	cout << "Player has been found" << endl;
-};
-
-void teamBuilder()
-{
-	cout << "Based on your champion pools, this is the best general composition for your selection: " << endl;
-};
-
-int main()
-{
-	//Menu
-	//M-1: Store Player Data
-	//M-2: Find Player Data
-	//M-3: Create Team
-		//Load Players into their roles
-		//Determine what kind of comp; Tanky, CC-Heavy, Balanced, Protect the ADC
-		//Select Champions depending on certain value requirements for the team
-	//M-4: Quit
+    string line;
+    int tank;
+    int range;
+    int cc;
+    int mobility;
+    int damage;
+    int heal;
+    int shield;
+    
+    ifstream myfile("read-champs");
+    getline(myfile, line)
+    
     int i = 0;
 
     Champion Aatrox;
@@ -2011,7 +1971,67 @@ int main()
     
     cout << Champs[136].name << endl;
     
-	int input;
+
+};
+
+void selectTank(){};
+void selectADC(){};
+void selectMid(){};
+void selectJG(){};
+void selectSupp(){};
+
+
+vector<Player> Players; //In reality this is a small scope program. Vector should suffice. If used for large scale, change to a hashmap
+
+Player newPlayer(string name)
+{
+	Player *temp = new Player; //New temp Player
+	string champ;
+	temp->name = name; //Add the player's name
+	cout << "Please enter each champion in " << name << "'s pool, press enter between each. When you're done, type in quit" << endl;
+	do
+	{
+		cin >> champ;
+		temp->pool.push_back(champ);
+		cout << "Please enter a valid Champion/correct the incorrect name" << endl;
+		cout << "You entered: " << champ << endl;
+	} while (champ != "quit"); //Quit phrase is quit
+
+	return *temp;
+};
+
+void store()
+{
+	string name;
+	cout << "Please enter the Player's name" << endl;
+	cin >> name;
+	Players.push_back(newPlayer(name));
+	cout << "Player has been stored successfully" << endl;
+};
+
+void load()
+{
+	cout << "Player has been found" << endl;
+};
+
+void teamBuilder()
+{
+	cout << "Based on your champion pools, this is the best general composition for your selection: " << endl;
+};
+
+int main()
+{
+	initializeChamps();
+	//Menu
+	//M-1: Store Player Data
+	//M-2: Find Player Data
+	//M-3: Create Team
+		//Load Players into their roles
+		//Determine what kind of comp; Tanky, CC-Heavy, Balanced, Protect the ADC
+		//Select Champions depending on certain value requirements for the team
+	//M-4: Quit
+	
+    	int input;
 	do
 	{
 		cout << "What would you like to do?" << endl;
