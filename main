@@ -6044,7 +6044,6 @@ void selectSupp(){};
 
 void existingPlayers;
 
-
 vector<Player> Players; //In reality this is a small scope program. Vector should suffice. If used for large scale, change to a hashmap
 
 Player newPlayer(string name)
@@ -6089,7 +6088,7 @@ void display()
 	cin.ignore();
 	getline(cin, name);
     bool found = false;
-    for (int i = 0; i < Players.size(); i++)
+    for (unsigned int i = 0; i < Players.size(); i++)
 	{
 	    if(Players[i].name == name)
 	        found = true;
