@@ -7,6 +7,7 @@
 #include <unordered_map>
 #include <iostream>
 #include <fstream>
+#include <algorithm>
 using namespace std;
 
 vector<string> Champions = {"Aatrox", "Ahri", "Akali", "Alistar", "Amumu", "Anivia", "Annie", "Ashe", "Aurelion Sol", "Azir", "Bard", "Blitzcrank", "Brand", "Braum", "Caitlyn", "Camille", "Cassiopeia", "Cho'Gath", "Corki", "Darius", "Diana", "Dr. Mundo",
@@ -6031,6 +6032,7 @@ x++;
     
     cout << Champs[136].name << endl;
 
+	myfile.close();
 
 };
 
@@ -6039,6 +6041,8 @@ void selectADC(){};
 void selectMid(){};
 void selectJG(){};
 void selectSupp(){};
+
+void existingPlayers;
 
 
 vector<Player> Players; //In reality this is a small scope program. Vector should suffice. If used for large scale, change to a hashmap
@@ -6049,29 +6053,55 @@ Player newPlayer(string name)
 	string champ;
 	temp->name = name; //Add the player's name
 	cout << "Please enter each champion in " << name << "'s pool, press enter between each. When you're done, type in quit" << endl;
-	do
+	while(champ != "quit")
 	{
 		cin >> champ;
-		temp->pool.push_back(champ);
-		cout << "Please enter a valid Champion/correct the incorrect name" << endl;
-		cout << "You entered: " << champ << endl;
-	} while (champ != "quit"); //Quit phrase is quit
-
+		if(find(Champions.begin(), Champions.end(), champ) != Champions.end())
+			temp->pool.push_back(champ);
+		else if(champ == "quit")
+		    continue;
+		else
+		{
+			cout << "Please enter a valid Champion/correct the incorrect name" << endl;
+			cout << "You entered: " << champ << endl;
+		}
+	}; //Quit phrase is quit
+	
 	return *temp;
+
 };
+
 
 void store()
 {
 	string name;
 	cout << "Please enter the Player's name" << endl;
-	cin >> name;
+	cin.ignore();
+	getline(cin, name);
 	Players.push_back(newPlayer(name));
 	cout << "Player has been stored successfully" << endl;
 };
 
-void load()
+void display()
 {
-	cout << "Player has been found" << endl;
+    string name;
+	cout << "Please enter the Player's name" << endl;
+	cin.ignore();
+	getline(cin, name);
+    bool found = false;
+    for (int i = 0; i < Players.size(); i++)
+	{
+	    if(Players[i].name == name)
+	        found = true;
+	}
+	   
+	if(found)
+	{
+	        cout << "The player " << name << " has been found" << endl;
+	        cout << "Their champion pool is " ;
+	}
+	else
+	    cout << "I'm sorry but the player " << name << " was not found in your database. Please check your spelling for errors." << endl;
 };
 
 void teamBuilder()
@@ -6096,7 +6126,7 @@ int main()
 	{
 		cout << "What would you like to do?" << endl;
 		cout << "To store player data and champion pools, enter 1" << endl;
-		cout << "To load player data and champion pools, enter 2" << endl;
+		cout << "To display player data and champion pools, enter 2" << endl;
 		cout << "To create a team, enter 3" << endl;
 		cout << "To exit, enter 4" << endl;
 		
@@ -6105,13 +6135,12 @@ int main()
 		if (input == 1)
 			store();
 		if (input == 2)
-			load();
+			display();
 		if (input == 3)
-			teamBuilder();
-		if (input == 4)
-			break;
+		    teamBuilder();
+		
 
-	} while (input > 0);
+	} while (input != 4);
 
 
 	cout << "Goodbye" << endl;
