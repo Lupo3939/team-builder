@@ -6036,11 +6036,21 @@ x++;
 
 };
 
-void selectTank(){};
-void selectADC(){};
-void selectMid(){};
-void selectJG(){};
-void selectSupp(){};
+void selectTank(){
+//Dissengage tank or Engage Tank?
+};
+void selectADC(){
+//Self kiting or needs protection?
+};
+void selectMid(){
+//Utility, burst or assassin
+};
+void selectJG(){
+//Ganking, farming, scaling, or tank?
+};
+void selectSupp(){
+//Tank or Utility Support? Or Mage
+};
 
 void existingPlayers;
 
