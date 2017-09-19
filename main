@@ -872,7 +872,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Darius.name = ;
     Darius.tank = tank;
     Darius.range = range;
     Darius.cc = cc;
@@ -960,7 +959,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Mundo.name = ;
     Mundo.tank = tank;
     Mundo.range = range;
     Mundo.cc = cc;
@@ -1004,7 +1002,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Draven.name = ;
     Draven.tank = tank;
     Draven.range = range;
     Draven.cc = cc;
@@ -1048,7 +1045,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Ekko.name = ;
     Ekko.tank = tank;
     Ekko.range = range;
     Ekko.cc = cc;
@@ -1092,7 +1088,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Elise.name = ;
     Elise.tank = tank;
     Elise.range = range;
     Elise.cc = cc;
@@ -1136,7 +1131,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Eve.name = ;
     Eve.tank = tank;
     Eve.range = range;
     Eve.cc = cc;
@@ -1180,7 +1174,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Ez.name = ;
     Ez.tank = tank;
     Ez.range = range;
     Ez.cc = cc;
@@ -1224,7 +1217,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Fiddle.name = ;
     Fiddle.tank = tank;
     Fiddle.range = range;
     Fiddle.cc = cc;
@@ -1268,7 +1260,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Fiora.name = ;
     Fiora.tank = tank;
     Fiora.range = range;
     Fiora.cc = cc;
@@ -1312,7 +1303,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Fizz.name = ;
     Fizz.tank = tank;
     Fizz.range = range;
     Fizz.cc = cc;
@@ -1356,7 +1346,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Galio.name = ;
     Galio.tank = tank;
     Galio.range = range;
     Galio.cc = cc;
@@ -1400,7 +1389,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Gp.name = ;
     GP.tank = tank;
     GP.range = range;
     GP.cc = cc;
@@ -1444,7 +1432,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Garen.name = ;
     Garen.tank = tank;
     Garen.range = range;
     Garen.cc = cc;
@@ -1488,7 +1475,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Gnar.name = ;
     Gnar.tank = tank;
     Gnar.range = range;
     Gnar.cc = cc;
@@ -1532,7 +1518,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Gragas.name = ;
     Gragas.tank = tank;
     Gragas.range = range;
     Gragas.cc = cc;
@@ -1576,7 +1561,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Graves.name = ;
     Graves.tank = tank;
     Graves.range = range;
     Graves.cc = cc;
@@ -1620,7 +1604,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Hecarim.name = ;
     Hecarim.tank = tank;
     Hecarim.range = range;
     Hecarim.cc = cc;
@@ -1664,7 +1647,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Donger.name = ;
     Donger.tank = tank;
     Donger.range = range;
     Donger.cc = cc;
@@ -1708,7 +1690,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Illaoi.name = ;
     Illaoi.tank = tank;
     Illaoi.range = range;
     Illaoi.cc = cc;
@@ -1752,7 +1733,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Irelia.name = ;
     Irelia.tank = tank;
     Irelia.range = range;
     Irelia.cc = cc;
@@ -1796,7 +1776,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Ivern.name = ;
     Ivern.tank = tank;
     Ivern.range = range;
     Ivern.cc = cc;
@@ -1840,7 +1819,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Janna.name = ;
     Janna.tank = tank;
     Janna.range = range;
     Janna.cc = cc;
@@ -1884,7 +1862,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    J4.name = ;
     J4.tank = tank;
     J4.range = range;
     J4.cc = cc;
@@ -1928,7 +1905,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Jax.name = ;
     Jax.tank = tank;
     Jax.range = range;
     Jax.cc = cc;
@@ -1972,7 +1948,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Jayce.name = ;
     Jayce.tank = tank;
     Jayce.range = range;
     Jayce.cc = cc;
@@ -2016,7 +1991,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Jhin.name = ;
     Jhin.tank = tank;
     Jhin.range = range;
     Jhin.cc = cc;
@@ -2060,7 +2034,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Jinx.name = ;
     Jinx.tank = tank;
     Jinx.range = range;
     Jinx.cc = cc;
@@ -2104,7 +2077,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kalista.name = ;
     Kalista.tank = tank;
     Kalista.range = range;
     Kalista.cc = cc;
@@ -2148,7 +2120,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Karma.name = ;
     Karma.tank = tank;
     Karma.range = range;
     Karma.cc = cc;
@@ -2192,7 +2163,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Karthus.name = ;
     Karthus.tank = tank;
     Karthus.range = range;
     Karthus.cc = cc;
@@ -2236,7 +2206,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kassadin.name = ;
     Kassadin.tank = tank;
     Kassadin.range = range;
     Kassadin.cc = cc;
@@ -2280,7 +2249,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kat.name = ;
     Kat.tank = tank;
     Kat.range = range;
     Kat.cc = cc;
@@ -2324,7 +2292,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kayle.name = ;
     Kayle.tank = tank;
     Kayle.range = range;
     Kayle.cc = cc;
@@ -2368,7 +2335,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kayn.name = ;
     Kayn.tank = tank;
     Kayn.range = range;
     Kayn.cc = cc;
@@ -2412,7 +2378,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kennen.name = ;
     Kennen.tank = tank;
     Kennen.range = range;
     Kennen.cc = cc;
@@ -2456,7 +2421,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kha.name = ;
     Kha.tank = tank;
     Kha.range = range;
     Kha.cc = cc;
@@ -2500,7 +2464,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kindred.name = ;
     Kindred.tank = tank;
     Kindred.range = range;
     Kindred.cc = cc;
@@ -2544,7 +2507,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kled.name = ;
     Kled.tank = tank;
     Kled.range = range;
     Kled.cc = cc;
@@ -2588,7 +2550,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Kog.name = ;
     Kog.tank = tank;
     Kog.range = range;
     Kog.cc = cc;
@@ -2632,7 +2593,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Leblanc.name = ;
     Leblanc.tank = tank;
     Leblanc.range = range;
     Leblanc.cc = cc;
@@ -2676,7 +2636,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Lee.name = ;
     Lee.tank = tank;
     Lee.range = range;
     Lee.cc = cc;
@@ -2720,7 +2679,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Leo.name = ;
     Leo.tank = tank;
     Leo.range = range;
     Leo.cc = cc;
@@ -2764,7 +2722,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Liss.name = ;
     Liss.tank = tank;
     Liss.range = range;
     LissLiss.cc = cc;
@@ -2808,7 +2765,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Lucian.name = ;
     Lucian.tank = tank;
     Lucian.range = range;
     LucianLucian.cc = cc;
@@ -2852,7 +2808,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Lulu.name = ;
     Lulu.tank = tank;
     Lulu.range = range;
     Lulu.cc = cc;
@@ -2896,7 +2851,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Lux.name = ;
     Lux.tank = tank;
     Lux.range = range;
     Lux.cc = cc;
@@ -2940,7 +2894,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Malphite.name = ;
     Malphite.tank = tank;
     Malphite.range = range;
     Malphite.cc = cc;
@@ -2984,7 +2937,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Malzahar.name = ;
     Malzahar.tank = tank;
     Malzahar.range = range;
     Malzahar.cc = cc;
@@ -3028,7 +2980,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Tree.name = ;
     Tree.tank = tank;
     Tree.range = range;
     Tree.cc = cc;
@@ -3072,7 +3023,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Yi.name = ;
     Yi.tank = tank;
     Yi.range = range;
     Yi.cc = cc;
@@ -3116,7 +3066,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    MF.name = ;
     MF.tank = tank;
     MF.range = range;
     MF.cc = cc;
@@ -3160,7 +3109,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Mord.name = ;
     Mord.tank = tank;
     Mord.range = range;
     Mord.cc = cc;
@@ -3204,7 +3152,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Morg.name = ;
     Morg.tank = tank;
     Morg.range = range;
     Morg.cc = cc;
@@ -3248,7 +3195,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Nami.name = ;
     Nami.tank = tank;
     Nami.range = range;
     Nami.cc = cc;
@@ -3292,7 +3238,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Susan.name = ;
     Susan.tank = tank;
     Susan.range = range;
     Susan.cc = cc;
@@ -3336,7 +3281,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Naut.name = ;
     Naut.tank = tank;
     Naut.range = range;
     Naut.cc = cc;
@@ -3380,7 +3324,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Nid.name = ;
     Nid.tank = tank;
     Nid.range = range;
     Nid.cc = cc;
@@ -3424,7 +3367,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Noct.name = ;
     Noct.tank = tank;
     Noct.range = range;
     Noct.cc = cc;
@@ -3468,7 +3410,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Nunu.name = ;
     Nunu.tank = tank;
     Nunu.range = range;
     Nunu.cc = cc;
@@ -3512,7 +3453,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Olaf.name = ;
     Olaf.tank = tank;
     Olaf.range = range;
     Olaf.cc = cc;
@@ -3556,7 +3496,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Ori.name = ;
     Ori.tank = tank;
     Ori.range = range;
     Ori.cc = cc;
@@ -3600,7 +3539,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Panth.name = ;
     Panth.tank = tank;
     Panth.range = range;
     Panth.cc = cc;
@@ -3644,7 +3582,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Poppy.name = ;
     Poppy.tank = tank;
     Poppy.range = range;
     Poppy.cc = cc;
@@ -3688,7 +3625,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Quinn.name = ;
     Quinn.tank = tank;
     Quinn.range = range;
     Quinn.cc = cc;
@@ -3732,7 +3668,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Rakan.name = ;
     Rakan.tank = tank;
     Rakan.range = range;
     Rakan.cc = cc;
@@ -3776,7 +3711,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Rammus.name = ;
     Rammus.tank = tank;
     Rammus.range = range;
     Rammus.cc = cc;
@@ -3820,7 +3754,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Rek.name = ;
     Rek.tank = tank;
     Rek.range = range;
     Rek.cc = cc;
@@ -3864,7 +3797,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Renekton.name = ;
     Renekton.tank = tank;
     Renekton.range = range;
     Renekton.cc = cc;
@@ -3908,7 +3840,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Rengar.name = ;
     Rengar.tank = tank;
     Rengar.range = range;
     Rengar.cc = cc;
@@ -3952,7 +3883,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Riven.name = ;
     Riven.tank = tank;
     Riven.range = range;
     Riven.cc = cc;
@@ -3996,7 +3926,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Rumble.name = ;
     Rumble.tank = tank;
     Rumble.range = range;
     Rumble.cc = cc;
@@ -4040,7 +3969,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Ryze.name = ;
     Ryze.tank = tank;
     Ryze.range = range;
     Ryze.cc = cc;
@@ -4084,7 +4012,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Sej.name = ;
     Sej.tank = tank;
     Sej.range = range;
     Sej.cc = cc;
@@ -4128,7 +4055,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Shaco.name = ;
     Shaco.tank = tank;
     Shaco.range = range;
     Shaco.cc = cc;
@@ -4172,7 +4098,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Shen.name = ;
     Shen.tank = tank;
     Shen.range = range;
     Shen.cc = cc;
@@ -4216,7 +4141,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Shyv.name = ;
     Shyv.tank = tank;
     Shyv.range = range;
     Shyv.cc = cc;
@@ -4260,7 +4184,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Singed.name = ;
     Singed.tank = tank;
     Singed.range = range;
     Singed.cc = cc;
@@ -4304,7 +4227,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Sion.name = ;
     Sion.tank = tank;
     Sion.range = range;
     Sion.cc = cc;
@@ -4348,7 +4270,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Sivir.name = ;
     Sivir.tank = tank;
     Sivir.range = range;
     Sivir.cc = cc;
@@ -4392,7 +4313,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Skarner.name = ;
     Skarner.tank = tank;
     Skarner.range = range;
     Skarner.cc = cc;
@@ -4436,7 +4356,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Sona.name = ;
     Sona.tank = tank;
     Sona.range = range;
     Sona.cc = cc;
@@ -4480,7 +4399,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Soraka.name = ;
     Soraka.tank = tank;
     Soraka.range = range;
     Soraka.cc = cc;
@@ -4524,7 +4442,6 @@ x++;
     {x++;}
     shield = line[x];
 x++;
-    Swain.name = ;
     Swain.tank = tank;
     Swain.range = range;
     Swain.cc = cc;
