@@ -13,7 +13,7 @@ Blitzcrank	4	2	4	1	3	1	1
 Brand		3	3	3	1	5	1	1
 Braum		4	2	4	2	2	1	3
 Caitlyn		1	5	3	2	5	1	1
-Camille	3	1	4	4	4	2	2
+Camille	  3	1	4	4	4	2	2
 Cassiopeia	3	3	3	1	5	2	1
 Cho'Gath	4	2	3	1	3	1	1
 Corki		1	4	1	2	5	1	1
@@ -34,7 +34,7 @@ Garen		4	2	1	1	4	1	1
 Gnar		4	3	5	3	3	1	1
 Gragas	3	1	4	2	4	2	1
 Graves		3	2	1	2	4	1	1
-Hecarim	4	2	3	3	3	1	1
+Hecarim	  4	2	3	3	3	1	1
 Heimerdinger	2	3	2	1	4	1	1
 Illaoi		3	2	1	2	4	2	1
 Irelia		4	1	2	3	4	2	1
